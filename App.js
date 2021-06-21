@@ -14,10 +14,10 @@ export default function App() {
   return (
       <NavigationContainer>
         <Stack.Navigator>
-          <Stack.Screen name="NeverHaveIEverScreen" component={NeverHaveIEverScreen} options={{headerShown: false}}/>
+          <Stack.Screen name="ParanoiaScreen" component={ParanoiaScreen} options={{headerShown: false}}/>
           <Stack.Screen name="HomeScreen" component={HomeScreen} options={{headerShown: false}}/>
           <Stack.Screen name="GameScreen" component={GameScreen} options={{headerShown: false}}/>
-          <Stack.Screen name="ParanoiaScreen" component={ParanoiaScreen} options={{headerShown: false}}/>
+          <Stack.Screen name="NeverHaveIEverScreen" component={NeverHaveIEverScreen} options={{headerShown: false}}/>
         </Stack.Navigator>
       </NavigationContainer>
   );
